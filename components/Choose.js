@@ -5,16 +5,32 @@ import Image from "next/image";
 export default function Choose() {
   return (
     <div className="choose">
-      <div className="image">
-        <Image src={cl} alt="choose" width="500px" height="100px"/>
-      </div>
       <div className="content">
-        <h2 style={{color:"black",fontSize:"2rem"}}>Turning Visions into Success: Mastering Excellence at Recoursetch</h2>
+        <h2
+          style={{
+            color: "black",
+            fontSize: "2.75rem",
+            fontWeight: "700",
+            lineHeight: "120%",
+            textTransform: "uppercase",
+            letterSpacing: "2px",
+          }}
+        >
+          Turning Visions into Success: Mastering Excellence at Recoursetch
+        </h2>
         <p>
-        Welcome to Recoursetch, where precision meets innovation. Our portfolio stands as a testament to our commitment to transforming concepts into tangible achievements. With a focus on strategic thinking and meticulous execution, we excel in navigating challenges and delivering solutions that redefine industry standards. Explore our curated collection of successful projects and discover how Recoursetch can elevate your business objectives. Contact us  to embark on a journey of corporate excellence.
+          Welcome to Recoursetch, where precision meets innovation. Our
+          portfolio stands as a testament to our commitment to transforming
+          concepts into tangible achievements. With a focus on strategic
+          thinking and meticulous execution, we excel in navigating challenges
+          and delivering solutions that redefine industry standards. Explore our
+          curated collection of successful projects and discover how Recoursetch
+          can elevate your business objectives. Contact us to embark on a
+          journey of corporate excellence.
         </p>
-        {/* <Button text="Read More" blue /> */}
-        <a>Visit our portfolio</a>
+      </div>
+      <div className="image">
+        <Image src={cl} alt="choose" width="500px" height="100px" />
       </div>
     </div>
   );

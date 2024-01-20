@@ -5,24 +5,28 @@ import { BiUser } from "react-icons/bi";
 
 export const home = [
   {
-    id:1,
+    id: 1,
     icon: <AiOutlineCalendar size={200} />,
-    title: "Timely delivery of software projects Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
+    title:
+      "Timely delivery of software projects Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
   },
-  { 
-    id:2,
+  {
+    id: 2,
     icon: <TfiRulerPencil size={200} />,
-    title: "Unique technologies & modern approach Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
+    title:
+      "Unique technologies & modern approach Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
   },
   {
-    id:3,
+    id: 3,
     icon: <VscFileSubmodule size={200} />,
-    title: "100+ successful cases in portfolio Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
+    title:
+      "100+ successful cases in portfolio Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
   },
   {
-    id:4,
+    id: 4,
     icon: <BiUser size={200} />,
-    title: "Customer satisfaction is our top priority Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
+    title:
+      "Customer satisfaction is our top priority Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.",
   },
 ];
 export const expertise = [
@@ -104,7 +108,7 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Beaut U",
+    title: "Ticketing",
     cover: "../images/1.png",
     catgeory: "WEBSITE DEVELOPMENT",
   },
@@ -116,37 +120,37 @@ export const showcase = [
   },
   {
     id: 3,
-    title: "Ticketing",
+    title: "Yoghino",
     cover: "../images/3.png",
     catgeory: "APP  DEVELOPMENT",
   },
   {
     id: 4,
-    title: "Sparsh Masala",
+    title: "Raga",
     cover: "../images/4.png",
     catgeory: "WEBSITE DEVELOPMENT	",
   },
   {
     id: 5,
-    title: "Beaut U",
+    title: "Browsejobs",
     cover: "../images/5.png",
     catgeory: "WEBSITE DEVELOPMENT",
   },
   {
     id: 6,
-    title: "Excellent NEETt Academy",
+    title: "BeautU",
     catgeory: "WEBSITE DEVELOPMENT",
     cover: "../images/6.png",
   },
   {
     id: 7,
-    title: "Ticketing",
+    title: "Conker World",
     cover: "../images/7.png",
     catgeory: "APP  DEVELOPMENT",
   },
   {
     id: 8,
-    title: "Sparsh Masala",
+    title: "Sudharshan Silks",
     cover: "../images/8.png",
     catgeory: "WEBSITE DEVELOPMENT	",
   },
@@ -164,16 +168,13 @@ export const brand = [
     id: 3,
     cover: "../images/l3.svg",
   },
+
   {
     id: 4,
-    cover: "../images/l4.svg",
-  },
-  {
-    id: 5,
     cover: "../images/l5.svg",
   },
   {
-    id: 6,
+    id: 5,
     cover: "../images/l6.svg",
   },
 ];
@@ -259,7 +260,6 @@ export const teamdata = [
   },
 ];
 
-
 export const skillset = [
   {
     id: 1,
@@ -332,6 +332,3 @@ export const showcase2 = [
     catgeory: "WEBSITE DEVELOPMENT	",
   },
 ];
-
-
-

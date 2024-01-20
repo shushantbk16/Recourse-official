@@ -1,6 +1,6 @@
 import React from "react";
 import { Title } from "../components/common/Title";
-import { showcase ,showcase2 } from "@/assets/data/dummydata";
+import { showcase, showcase2 } from "@/assets/data/dummydata";
 import { Card } from "../components/common/Card";
 import Link from "next/link";
 import { HiOutlineArrowRight } from "react-icons/hi";
@@ -11,7 +11,13 @@ const Portfolio = () => {
       <section className="showcase portfolio">
         <div className="container">
           <div className="heading-title">
-            <h1>Popular Works</h1>
+            <h1 style={{ fontSize: "4rem" }}>RECOURSETECH</h1>
+            <h1 style={{ fontSize: "4rem" }}>COLLECTION</h1>
+            <p>
+              Our team has vast experience in design and development of custom
+              innovative ecommerce solutions. Here are some of the projects
+              we've successfully delivered to our clients.
+            </p>
           </div>
           {/* <div className="hero-content grid-3 py">
             {showcase.map((item) => (
@@ -19,49 +25,46 @@ const Portfolio = () => {
             ))}
           </div> */}
           <div className="marketPlaces-portfolio ">
-        {showcase.map((item) => {
-          return (
-            <motion.div
-            whileInView="visible"
-            viewport={{ once: true }}
-            initial="hidden"
-            variants={{
-              visible: { opacity: 1, scale: 1, y: 0 },
-              hidden: { y: 60, opacity: 0, scale: 0.5 },
-            }}
-            transition={{
-              type: "spring",
-              duration: "1.5",
-              ease: "easeInOut",
-              // delay: "0.",
-            }}
-            style={{ top: "-22px" }}
-            >
-            <div className="marketplace-portfolio">
-              <div className="image-portfolio ">
-                <img src={item.cover} alt="marketplace-portfolio "  style={{ width:"275px",height: "250px"}}/>
-              </div>
-              <div className="name-portfolio ">
-                <h4>{item.title}</h4>
-               
-              </div>
-              <h6 className="username-portfolio ">{item.catgeory}</h6>
-             
-            </div>
-            </motion.div>
-          );
-        })}
-         </div>
-        
-         
-         
-         
+            {showcase.map((item) => {
+              return (
+                <motion.div
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  initial="hidden"
+                  variants={{
+                    visible: { opacity: 1, scale: 1, y: 0 },
+                    hidden: { y: 60, opacity: 0, scale: 0.5 },
+                  }}
+                  transition={{
+                    type: "spring",
+                    duration: "1.5",
+                    ease: "easeInOut",
+                    // delay: "0.",
+                  }}
+                  style={{ top: "-22px" }}
+                >
+                  <div className="marketplace-portfolio">
+                    <div className="image-portfolio ">
+                      <img
+                        src={item.cover}
+                        alt="marketplace-portfolio "
+                        style={{ width: "275px", height: "250px" }}
+                      />
+                    </div>
+                    <div className="name-portfolio ">
+                      <h4>{item.title}</h4>
+                    </div>
+                    {/* <h6 className="username-portfolio ">{item.catgeory}</h6> */}
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
       </section>
     </>
   );
 };
-
 
 // const Section = styled.section`
 //   display: flex;

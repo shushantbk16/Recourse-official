@@ -30,11 +30,11 @@
   }
 }
 .logokb {
-  font-size: $xll;
+  font-size: 6.5rem;
   color: #5118A8;
-  span {
-    font-size: 50px;
-  }
+  text-align: left;
+  margin-top: 15%;
+ 
 }
 .logomin{
   padding-top: 10%;
@@ -95,7 +95,7 @@
   padding-bottom: $xl-4;
   p {
     margin: $xl-6 0;
-    color: rgba($white, 0.5);
+    // color: rgba($white, 0.5);
   }
 }
 .card {

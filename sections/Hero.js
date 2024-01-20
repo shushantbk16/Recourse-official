@@ -1,4 +1,3 @@
-
 import Banner from "@/components/Banner";
 import Expertise from "@/components/Expertise";
 import ShowCase from "@/sections/Portfolio";
@@ -26,149 +25,139 @@ const Hero = () => {
     <>
       <section className="hero">
         <div className="container">
-          <TitleLogo title="Re.course.tech" caption="" className="logokb" />
-          <h1 className="hero-title">WE BUILD DIGITAL EXPERIENCES</h1>
+          {/* <TitleLogo title="Re.course.tech" caption="" className="logokb" />
+          <h1 className="hero-title">WE BUILD DIGITAL EXPERIENCES</h1> */}
 
-          <div className="sub-heading">
+          {/* <div className="sub-heading">
             <TitleSm title="WEB DEVELOPMENT"/> <span>.</span>
             <TitleSm title="APP DEVELOPMENT"/> <span>.</span>
             <TitleSm title="UI/UX DESIGN" />
-          </div>
+          </div> */}
         </div>
-        
-
       </section>
-      <section className="hero-sec">
+      <section className="hero-sec" style={{ paddingTop: "15%" }}>
         <div className="container">
           <div className="heading-title">
-            <Title title="A comprehensive software hub catering to all your digital requirements" />
-            <p>
+            <h2
+              style={{
+                textTransform: "uppercase",
+                textAlign: "left",
+                fontSize: "2.75rem",
+                fontWeight: "700",
+                lineHeight: "120%",
+                fontFamily: "Montserrat_local,Verdana,sans-serif",
+              }}
+            >
+              A comprehensive software hub catering to all your digital
+              requirements.
+            </h2>
+            <p style={{ padding: "5% 0%", textAlign: "left" }}>
               Our early achievements are a testament to our passion and
               innovation. With a growing list of satisfied clients, we've
               completed 50+ projects and counting. Our dedicated team of 15+
               experts is committed to fueling your company's digital journey.
             </p>
           </div>
-          {/* <div className="hero-content skills grid-4">
-            {home.map((item) => (
-              <div className="box small-card" key={item.id}>
-                <div className="left">
-                <span className="icon">{item.icon}</span> 
-                </div>
-                <div >
-                <h3 className="icon-description">{item.title}</h3>
-                </div>
-              </div>
-            ))}
-          </div> */}
-          <div className="hero-content skills grid-4">
-          <motion.div
-          className="inline-block"
-          initial={{opacity:0,x:-50}}
-          whileInView={{
-        opacity: 1,
-        x: 0, // Slide in to its original position
-        transition: {
-          duration: 1 // Animation duration
-        }
-      }}
-          viewport={{ once: true }}
-         
-        >
-              <div className="box small-card left">
-                <div >
-                <Image src={cl}height={200} width={200}/> 
-                
-                </div>
-                <div >
-                <h3 className="icon-description">Timely delivery of software projects Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.</h3>
-                </div>
-              </div>
-          </motion.div>
-          <motion.div
-          className="inline-block"
-          
-          viewport={{ once: true }}
-          initial={{opacity:0,x:50}}
-          whileInView={{
-        opacity: 1,
-        x: 0, // Slide in to its original position
-        transition: {
-          duration: 1 // Animation duration
-        }
-      }}
-        >
-            <div className="box small-card right-term">
-                <div >
-                <Image src={ca}height={200} width={200}/> 
-                </div>
-                <div >
-                <h3 className="icon-description">Unique technologies & modern approach Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.</h3>
-                </div>
-              </div>
+          <hr style={{ width: "90%", marginLeft: "9%" }} />
+          <div>
+            <div className="cardify">
+              <h1
+                style={{
+                  fontSize: "2.1rem",
+                  fontWeight: "600",
+                  lineHeight: "1.25",
+                  color: "black",
+                  fontFamily: "Montserrat_local,Verdana,sans-serif",
+                  marginLeft: "20%",
+                }}
+              >
+                Timely Delivery
+              </h1>
+              <p style={{ color: "black", fontSize: "1rem" }}>
+                Timely delivery of software projects Our early achievements are
+                a testament to our passion and innovation. With a growing list
+                of satisfied clients, we've completed 50+ projects and counting.
+                Our dedicated team of 15+ experts is committed to fueling your
+                company's digital journey.
+              </p>
+            </div>
+            <hr style={{ width: "90%", marginLeft: "9%" }} />
+            <div className="cardify">
+              <h1
+                style={{
+                  fontSize: "2.1rem",
+                  fontWeight: "600",
+                  lineHeight: "1.25",
+                  color: "black",
+                  fontFamily: "Montserrat_local,Verdana,sans-serif",
+                  marginLeft: "20%",
+                }}
+              >
+                Unique Technologies and Modern Approach
+              </h1>
 
-        </motion.div>
-        
-        
-        <motion.div
-          className="inline-block"
-         
-          viewport={{ once: true }}
-          initial={{opacity:0,x:-50}}
-          whileInView={{
-        opacity: 1,
-        x: 0, // Slide in to its original position
-        transition: {
-          duration: 1 // Animation duration
-        }
-      }}
-        >
-            <div className="box small-card left">
-                <div >
-                <Image src={cb}height={200} width={200}/> 
-                </div>
-                <div >
-                <h3 className="icon-description">100+ successful cases in portfolio Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.</h3>
-                </div>
-              </div>
+              <p style={{ color: "black", fontSize: "1rem" }}>
+                Unique technologies & modern approach Our early achievements are
+                a testament to our passion and innovation. With a growing list
+                of satisfied clients, we've completed 50+ projects and counting.
+                Our dedicated team of 15+ experts is committed to fueling your
+                company's digital journey.
+              </p>
+            </div>
+            <hr style={{ width: "90%", marginLeft: "9%" }} />
+            <div className="cardify">
+              <h1
+                style={{
+                  fontSize: "2.1rem",
+                  fontWeight: "600",
+                  lineHeight: "1.25",
+                  color: "black",
+                  fontFamily: "Montserrat_local,Verdana,sans-serif",
+                  marginLeft: "20%",
+                }}
+              >
+                100+ successful cases in portfolio
+              </h1>
 
-        </motion.div>
-             
+              <p style={{ color: "black", fontSize: "1rem" }}>
+                100+ successful cases in portfolio Our early achievements are a
+                testament to our passion and innovation. With a growing list of
+                satisfied clients, we've completed 50+ projects and counting.
+                Our dedicated team of 15+ experts is committed to fueling your
+                company's digital journey.
+              </p>
+            </div>
+            <hr style={{ width: "90%", marginLeft: "9%" }} />
+            <div className="cardify">
+              <h1
+                style={{
+                  fontSize: "2.1rem",
+                  fontWeight: "600",
+                  lineHeight: "1.25",
+                  color: "black",
+                  fontFamily: "Montserrat_local,Verdana,sans-serif",
+                  marginLeft: "20%",
+                }}
+              >
+                Customer satisfaction
+              </h1>
 
-        <motion.div
-          className="inline-block"
-          
-          viewport={{ once: true }}
-          initial={{opacity:0,x:50}}
-          whileInView={{
-        opacity: 1,
-        x: 0, // Slide in to its original position
-        transition: {
-          duration: 1 // Animation duration
-        }
-      }}
-        >
-          <div className="box small-card right-term">
-                <div >
-                <Image src={cd} height={200} width={200} /> 
-                </div>
-                <div >
-                <h3 className="icon-description">Customer satisfaction is our top priority Our early achievements are a testament to our passion and innovation. With a growing list of satisfied clients, we've completed 50+ projects and counting. Our dedicated team of 15+ experts is committed to fueling your company's digital journey.</h3>
-                </div>
-              </div>
-
-
-        </motion.div>
-              
+              <p style={{ color: "black", fontSize: "1rem" }}>
+                Customer satisfaction is our top priority Our early achievements
+                are a testament to our passion and innovation. With a growing
+                list of satisfied clients, we've completed 50+ projects and
+                counting. Our dedicated team of 15+ experts is committed to
+                fueling your company's digital journey.
+              </p>
+            </div>
           </div>
-
         </div>
       </section>
       {/* <Expertise /> */}
-      <Choose/>
-      <Development/>
-      
-      <Brand/>
+      <Choose />
+      <Development />
+
+      <Brand />
       {/* <Banner/> */}
       {/* <Testimonial /> */}
       {/* <ShowCase /> */}
