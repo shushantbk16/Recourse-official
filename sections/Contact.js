@@ -33,37 +33,44 @@ const Contact = () => {
               your project.
             </p>
           </div>
-          <div>
-            <input
-              type="text"
-              maxLength={15}
-              required
-              placeholder="Name*"
-              className="input-feild"
-            ></input>
-            <input
-              type="email"
-              maxLength={15}
-              required
-              placeholder="Email*"
-              className="input-feild"
-            ></input>
+          <div style={{ display: "flex" }}>
+            <div className="spacing">
+              <input
+                type="text"
+                maxLength={15}
+                required
+                placeholder="Name*"
+                className="input-feild"
+              ></input>
+            </div>
+            <div className="spacing">
+              <input
+                type="email"
+                maxLength={15}
+                required
+                placeholder="Email*"
+                className="input-feild"
+              ></input>
+            </div>
           </div>
           <div>
-            <input
-              type="text"
-              maxLength={15}
-              required
-              placeholder="Company*"
-              className="input-feild"
-            ></input>
+            <div className="spacing">
+              <input
+                type="text"
+                maxLength={15}
+                required
+                placeholder="Company*"
+                className="input-feild"
+              ></input>
+            </div>
           </div>
-          <textarea
-            className="input-feild"
-            placeholder="Tell us about your project"
-            style={{ width: "100%", height: "30vh", paddingTop: "5%" }}
-          ></textarea>
-          <div>
+          <div style={{ padding: "2% 2% 0%" }}>
+            <textarea
+              className="input-feild"
+              placeholder="Tell us about your project"
+              style={{ width: "100%", height: "30vh" }}
+            ></textarea>
+            <div></div>
             <input type="checkbox" id="consent" name="consent"></input>
             <label
               style={{
@@ -76,47 +83,51 @@ const Contact = () => {
               I give my consent to process my personal data in accordance with
               the Privacy Policy.
             </label>
+
+            <div>
+              <input type="checkbox" id="updates" name="updates"></input>
+              <label
+                style={{
+                  color: "black",
+                  fontSize: "0.875rem",
+                  paddingLeft: "2%",
+                }}
+                htmlFor="updates"
+              >
+                I want to receive updates about ecommerce, tech and Grinteq. I
+                know I can unsubscribe at any time.
+              </label>
+            </div>
           </div>
-          <div>
-            <input type="checkbox" id="updates" name="updates"></input>
-            <label
+          <div style={{ paddingLeft: "2%" }}>
+            <button
               style={{
-                color: "black",
-                fontSize: "0.875rem",
-                paddingLeft: "2%",
+                display: "block",
+                color: "white",
+                border: "1px solid blue",
+                borderRadius: "0.5rem",
+                backgroundColor: "#66f",
+                width: "10.625rem",
+                fontSize: "1.25rem",
+                fontWeight: "500",
+                height: "6vh",
+                marginBottom: "10%",
+                marginTop: "5%",
               }}
-              htmlFor="updates"
             >
-              I want to receive updates about ecommerce, tech and Grinteq. I
-              know I can unsubscribe at any time.
-            </label>
+              Send
+            </button>
           </div>
-          <button
-            style={{
-              display: "block",
-              color: "white",
-              border: "1px solid blue",
-              borderRadius: "0.5rem",
-              backgroundColor: "#66f",
-              width: "10.625rem",
-              fontSize: "1.25rem",
-              fontWeight: "500",
-              height: "6vh",
-              marginBottom: "10%",
-              marginTop: "5%",
-            }}
-          >
-            Send
-          </button>
         </div>
         <div>
           <img
             src="../images/20822858_NA_October_25.svg"
             style={{
-              width: "100%",
-              height: "100%",
+              width: "20rem",
+              height: "20rem",
               textAlign: "center",
-              marginLeft: "20%",
+              marginLeft: "0%",
+              marginTop: "50%",
             }}
           ></img>
         </div>

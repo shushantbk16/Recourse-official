@@ -923,7 +923,7 @@ footer {
 .input-feild{
   border: 0.0625rem solid #e4e4eb;
   height: 6vh;
-  width: 50%;
+ width: 22rem;
 }
 .contact-form{
   padding-left: 10%;
@@ -988,5 +988,9 @@ input,textarea{
   margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
+}
+.spacing{
+  padding: 1% 2%;
   
 }
