@@ -51,6 +51,7 @@ const About = () => {
 
             <div className="vision-div">
               <Title title="OUR VISION" className="title-bg" />
+              <hr></hr>
               <div style={{ display: "flex", paddingTop: "5%" }}>
                 <div>
                   <img
@@ -97,6 +98,7 @@ const About = () => {
 
             <div className="vision-div" style={{ marginBottom: "10%" }}>
               <Title title="OUR MISSION" className="title-bg" />
+              <hr></hr>
               <div
                 style={{
                   display: "flex",
@@ -105,7 +107,7 @@ const About = () => {
                 }}
               >
                 <div>
-                  <ul className="vision-text">
+                  <ul className="vision-text" style={{ width: "80%" }}>
                     <li>
                       Innovation Empowered by Collaboration: At Recourse-Tech,
                       our mission si to pioneer innovative solutions that
@@ -138,8 +140,11 @@ const About = () => {
                 </div>
                 <div>
                   <img
-                    src="../images/download-removebg-preview.png"
-                    style={{ width: "25rem", height: "40vh" }}
+                    src="../images/misson.png"
+                    style={{
+                      width: "22rem",
+                      height: "20rem",
+                    }}
                   ></img>
                 </div>
               </div>

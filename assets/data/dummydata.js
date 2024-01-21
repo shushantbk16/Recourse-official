@@ -178,6 +178,13 @@ export const brand = [
     cover: "../images/l6.svg",
   },
 ];
+// export const brand = [
+//   "../images/l1.svg",
+//   "../images/l2.svg",
+//   "../images/l3.svg",
+//   "../images/l5.svg",
+//   "../images/l6.svg",
+// ];
 export const blogdata = [
   {
     id: 1,

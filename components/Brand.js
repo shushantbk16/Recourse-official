@@ -2,50 +2,9 @@ import React from "react";
 import { Title } from "./common/Title";
 import { brand } from "@/assets/data/dummydata";
 import styled from "styled-components";
-const Banner = ({ images, speed = 5000 }) => {
-  return (
-    <div className="inner-banner">
-      <div className="wrapper-banner">
-        <section style={{ "--speed": `${speed}ms` }} className="banner-section">
-          {images.map((image) => (
-            <div className="image" key={image.id}>
-              <img
-                src={image.cover}
-                alt={image.id}
-                className="banner-img"
-                style={{ height: "10vh", width: "100%" }}
-              />
-            </div>
-          ))}
-        </section>
-        <section style={{ "--speed": `${speed}ms` }} className="banner-section">
-          {images.map((image) => (
-            <div className="image" key={image.id}>
-              <img
-                src={image.cover}
-                alt={image.id}
-                className="banner-img"
-                style={{ height: "10vh", width: "100%" }}
-              />
-            </div>
-          ))}
-        </section>
-        <section style={{ "--speed": `${speed}ms` }} className="banner-section">
-          {images.map((image) => (
-            <div className="image" key={image.id}>
-              <img
-                src={image.cover}
-                alt={image.id}
-                className="banner-img"
-                style={{ height: "10vh", width: "100%" }}
-              />
-            </div>
-          ))}
-        </section>
-      </div>
-    </div>
-  );
-};
+import { images } from "@/next.config";
+import { IoPlayCircleSharp } from "react-icons/io5";
+
 const Brand = () => {
   return (
     <>
@@ -56,37 +15,25 @@ const Brand = () => {
               WE ARE PROUD TO WORK WITH THESE COMPANIES
             </h1>
           </div>
-          <Banner images={brand} speed={5000} />
-
-          {/* <div className="infintescroll-card">
-            <div
-              className="brand-content  py infinitescroll"
-              style={{ display: "flex", width: "100%", overflow: "hidden" }}
-            >
-              {brand.map((item) => (
-                <div className="client" key={item.id}>
-                  <img
-                    src={item.cover}
-                    alt={item.id}
-                    width="200px"
-                    height="200px"
-                  />
-                </div>
-              ))}
-              {brand.map((item) => (
-                <div className="client" key={item.id}>
-                  <img
-                    src={item.cover}
-                    alt={item.id}
-                    width="200px"
-                    height="200px"
-                  />
-                </div>
-              ))}
-            </div>
-          </div> */}
         </div>
       </section>
+      <div class="logos">
+        <div class="logos-slide">
+          <img src="../images/l1.svg" alt="hi" />
+          <img src="../images/l2.svg" alt="hi" />
+          <img src="../images/l3.svg" alt="hi" />
+          <img src="../images/l6.svg" alt="hi" />
+          <img src="../images/l5.svg" alt="hi" />
+        </div>
+
+        <div class="logos-slide">
+          <img src="../images/l1.svg" alt="hi" />
+          <img src="../images/l2.svg" alt="hi" />
+          <img src="../images/l3.svg" alt="hi" />
+          <img src="../images/l6.svg" alt="hi" />
+          <img src="../images/l5.svg" alt="hi" />
+        </div>
+      </div>
     </>
   );
 };

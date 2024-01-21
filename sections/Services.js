@@ -46,7 +46,8 @@ const Services = () => {
                 <img
                   src="../images/mob.png"
                   style={{
-                    width: "16%",
+                    width: "4rem",
+                    height: "6rem",
                     marginTop: "-22%",
                     paddingBottom: "10%",
                     marginBottom: "-14%",
@@ -71,11 +72,12 @@ const Services = () => {
                 <div>
                   <p
                     style={{
-                      color: "#c0c0c0",
+                      color: "#039292",
                       fontSize: "0.875rem",
                       fontWeight: "400",
                       lineHeight: "1.8",
                       margin: "20px 0 0",
+                      padding: "0% 1%",
                     }}
                   >
                     Craft intuitive mobile applications with seamless UX/Ul,
@@ -100,7 +102,8 @@ const Services = () => {
                 <img
                   src="../images/web.png"
                   style={{
-                    width: "16%",
+                    width: "4rem",
+                    height: "6rem",
                     marginTop: "-22%",
                     paddingBottom: "10%",
                     marginBottom: "-14%",
@@ -125,11 +128,12 @@ const Services = () => {
                 <div>
                   <p
                     style={{
-                      color: "#c0c0c0",
+                      color: "#039292",
                       fontSize: "0.875rem",
                       fontWeight: "400",
                       lineHeight: "1.8",
                       margin: "20px 0 0",
+                      padding: "0% 1%",
                     }}
                   >
                     Engineer scalable web applications using robust
@@ -155,7 +159,8 @@ const Services = () => {
                 <img
                   src="../images/sa.png"
                   style={{
-                    width: "16%",
+                    width: "4rem",
+                    height: "6rem",
                     marginTop: "-22%",
                     paddingBottom: "10%",
                     marginBottom: "-14%",
@@ -180,11 +185,12 @@ const Services = () => {
                 <div>
                   <p
                     style={{
-                      color: "#c0c0c0",
+                      color: "#039292",
                       fontSize: "0.875rem",
                       fontWeight: "400",
                       lineHeight: "1.8",
                       margin: "20px 0 0",
+                      padding: "0% 1%",
                     }}
                   >
                     Optimize business processes with our Software as a Service
@@ -210,7 +216,8 @@ const Services = () => {
                 <img
                   src="../images/cc.png"
                   style={{
-                    width: "16%",
+                    width: "4rem",
+                    height: "6rem",
                     marginTop: "-22%",
                     paddingBottom: "10%",
                     marginBottom: "-14%",
@@ -235,11 +242,12 @@ const Services = () => {
                 <div>
                   <p
                     style={{
-                      color: "#c0c0c0",
+                      color: "#039292",
                       fontSize: "0.875rem",
                       fontWeight: "400",
                       lineHeight: "1.8",
                       margin: "20px 0 0",
+                      padding: "0% 1%",
                     }}
                   >
                     Implement cloud-native solutions for enhanced resource
@@ -265,7 +273,8 @@ const Services = () => {
                 <img
                   src="../images/ec.png"
                   style={{
-                    width: "16%",
+                    width: "4rem",
+                    height: "6rem",
                     marginTop: "-22%",
                     paddingBottom: "10%",
                     marginBottom: "-14%",
@@ -290,11 +299,12 @@ const Services = () => {
                 <div>
                   <p
                     style={{
-                      color: "#c0c0c0",
+                      color: "	#039292",
                       fontSize: "0.875rem",
                       fontWeight: "400",
                       lineHeight: "1.8",
                       margin: "20px 0 0",
+                      padding: "0% 1%",
                     }}
                   >
                     Develop secure e-commerce platforms with PCI-compliant
@@ -320,7 +330,8 @@ const Services = () => {
                 <img
                   src="../images/bc.png"
                   style={{
-                    width: "16%",
+                    width: "4rem",
+                    height: "6rem",
                     marginTop: "-22%",
                     paddingBottom: "10%",
                     marginBottom: "-14%",
@@ -345,11 +356,12 @@ const Services = () => {
                 <div>
                   <p
                     style={{
-                      color: "#c0c0c0",
+                      color: "	#039292",
                       fontSize: "0.875rem",
                       fontWeight: "400",
                       lineHeight: "1.8",
                       margin: "20px 0 0",
+                      padding: "0% 1%",
                     }}
                   >
                     Blockchain Implement decentralized ledger technology for
