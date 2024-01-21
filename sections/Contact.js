@@ -113,7 +113,7 @@ const Contact = () => {
           <img
             src="../images/20822858_NA_October_25.svg"
             style={{
-              width: "150%",
+              width: "100%",
               height: "100%",
               textAlign: "center",
               marginLeft: "20%",

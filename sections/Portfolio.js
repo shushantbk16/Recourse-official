@@ -48,7 +48,7 @@ const Portfolio = () => {
                       <img
                         src={item.cover}
                         alt="marketplace-portfolio "
-                        style={{ width: "275px", height: "250px" }}
+                        style={{ width: "13rem", height: "13rem" }}
                       />
                     </div>
                     <div className="name-portfolio ">

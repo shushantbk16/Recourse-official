@@ -38,7 +38,7 @@ const Services = () => {
                 textAlign: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                height: "35vh",
+                height: "20rem",
               }}
               className="service-card"
             >
@@ -92,7 +92,7 @@ const Services = () => {
                 textAlign: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                height: "35vh",
+                height: "20rem",
               }}
               className="service-card"
             >
@@ -147,7 +147,7 @@ const Services = () => {
                 textAlign: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                height: "35vh",
+                height: "20rem",
               }}
               className="service-card"
             >
@@ -202,7 +202,7 @@ const Services = () => {
                 textAlign: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                height: "35vh",
+                height: "20rem",
               }}
               className="service-card"
             >
@@ -257,7 +257,7 @@ const Services = () => {
                 textAlign: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                height: "35vh",
+                height: "20rem",
               }}
               className="service-card"
             >
@@ -312,7 +312,7 @@ const Services = () => {
                 textAlign: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                height: "35vh",
+                height: "20rem",
               }}
               className="service-card"
             >
