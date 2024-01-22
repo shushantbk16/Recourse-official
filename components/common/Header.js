@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="container" style={{height:"23px"}}>
+        <div className="container" style={{ height: "23px" }}>
           <div className="logo">
             <Link href="/">
               <TitleLogo title="Recourse" caption="" className="logomin" />
@@ -28,26 +28,28 @@ const Header = () => {
           >
             <Link
               href="/"
-              className={activeLink == "/" ? "activeLink" : "none"}
+              className={activeLink == "/" ? "activeLink" : "text-black"}
             >
               Home
             </Link>
-            
+
             <Link
               href="/services"
-              className={activeLink == "/services" ? "activeLink" : "none"}
+              className={
+                activeLink == "/services" ? "activeLink" : "text-black"
+              }
             >
               Services
             </Link>
             <Link
               href="/about"
-              className={activeLink == "/about" ? "activeLink" : "none"}
+              className={activeLink == "/about" ? "activeLink" : "text-black"}
             >
-             About
+              About
             </Link>
             <Link
               href="/contact"
-              className={activeLink == "/contact" ? "activeLink" : "none"}
+              className={activeLink == "/contact" ? "activeLink" : "text-black"}
             >
               Contact
             </Link>

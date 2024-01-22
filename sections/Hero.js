@@ -38,16 +38,7 @@ const Hero = () => {
       <section className="hero-sec" style={{ paddingTop: "15%" }}>
         <div className="container">
           <div className="heading-title">
-            <h2
-              style={{
-                textTransform: "uppercase",
-                textAlign: "left",
-                fontSize: "2.75rem",
-                fontWeight: "700",
-                lineHeight: "120%",
-                fontFamily: "Montserrat_local,Verdana,sans-serif",
-              }}
-            >
+            <h2 className="cardify-title">
               A comprehensive software hub catering to all your digital
               requirements.
             </h2>
@@ -58,21 +49,10 @@ const Hero = () => {
               experts is committed to fueling your company's digital journey.
             </p>
           </div>
-          <hr style={{ width: "90%", marginLeft: "9%" }} />
+          <hr className="cardify-line" />
           <div>
             <div className="cardify">
-              <h1
-                style={{
-                  fontSize: "2.1rem",
-                  fontWeight: "600",
-                  lineHeight: "1.25",
-                  color: "black",
-                  fontFamily: "Montserrat_local,Verdana,sans-serif",
-                  marginLeft: "20%",
-                }}
-              >
-                Timely Delivery
-              </h1>
+              <h1 className="cardify-text">Timely Delivery</h1>
               <p style={{ color: "black", fontSize: "1rem" }}>
                 Timely delivery of software projects Our early achievements are
                 a testament to our passion and innovation. With a growing list
@@ -81,18 +61,9 @@ const Hero = () => {
                 company's digital journey.
               </p>
             </div>
-            <hr style={{ width: "90%", marginLeft: "9%" }} />
+            <hr className="cardify-line" />
             <div className="cardify">
-              <h1
-                style={{
-                  fontSize: "2.1rem",
-                  fontWeight: "600",
-                  lineHeight: "1.25",
-                  color: "black",
-                  fontFamily: "Montserrat_local,Verdana,sans-serif",
-                  marginLeft: "20%",
-                }}
-              >
+              <h1 className="cardify-text">
                 Unique Technologies and Modern Approach
               </h1>
 
@@ -104,18 +75,9 @@ const Hero = () => {
                 company's digital journey.
               </p>
             </div>
-            <hr style={{ width: "90%", marginLeft: "9%" }} />
+            <hr className="cardify-line" />
             <div className="cardify">
-              <h1
-                style={{
-                  fontSize: "2.1rem",
-                  fontWeight: "600",
-                  lineHeight: "1.25",
-                  color: "black",
-                  fontFamily: "Montserrat_local,Verdana,sans-serif",
-                  marginLeft: "20%",
-                }}
-              >
+              <h1 className="cardify-text">
                 100+ successful cases in portfolio
               </h1>
 
@@ -127,20 +89,9 @@ const Hero = () => {
                 company's digital journey.
               </p>
             </div>
-            <hr style={{ width: "90%", marginLeft: "9%" }} />
+            <hr className="cardify-line" />
             <div className="cardify">
-              <h1
-                style={{
-                  fontSize: "2.1rem",
-                  fontWeight: "600",
-                  lineHeight: "1.25",
-                  color: "black",
-                  fontFamily: "Montserrat_local,Verdana,sans-serif",
-                  marginLeft: "20%",
-                }}
-              >
-                Customer satisfaction
-              </h1>
+              <h1 className="cardify-text">Customer satisfaction</h1>
 
               <p style={{ color: "black", fontSize: "1rem" }}>
                 Customer satisfaction is our top priority Our early achievements

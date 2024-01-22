@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <>
       <section
-        className="agency bg-top"
+        className="agency bg-top appearance-none"
         style={{
           backgroundColor: "#f2f2f2",
           marginTop: "-4%",
@@ -32,54 +32,16 @@ const Services = () => {
               paddingTop: "8%",
             }}
           >
-            <div
-              style={{
-                width: "80%",
-                textAlign: "center",
-                backgroundColor: "white",
-                borderRadius: "15px",
-                height: "20rem",
-              }}
-              className="service-card"
-            >
+            <div className="service-card">
               <div>
-                <img
-                  src="../images/mob.png"
-                  style={{
-                    width: "4rem",
-                    height: "6rem",
-                    marginTop: "-22%",
-                    paddingBottom: "10%",
-                    marginBottom: "-14%",
-                    borderRadius: "0.3rem",
-                  }}
-                ></img>
+                <img src="../images/mob.png" className="service-logo"></img>
               </div>
               <div>
                 <div>
-                  <h1
-                    style={{
-                      color: "black",
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      letterSpacing: "1px",
-                      paddingTop: "20%",
-                    }}
-                  >
-                    Mobile Development
-                  </h1>
+                  <h1 className="service-title">Mobile Development</h1>
                 </div>
                 <div>
-                  <p
-                    style={{
-                      color: "#039292",
-                      fontSize: "0.875rem",
-                      fontWeight: "400",
-                      lineHeight: "1.8",
-                      margin: "20px 0 0",
-                      padding: "0% 1%",
-                    }}
-                  >
+                  <p className="service-description">
                     Craft intuitive mobile applications with seamless UX/Ul,
                     leveraging cutting-edge frameworks and agile methodologies
                     for optimal performance and user satisfaction.
@@ -88,54 +50,16 @@ const Services = () => {
               </div>
             </div>
 
-            <div
-              style={{
-                width: "80%",
-                textAlign: "center",
-                backgroundColor: "white",
-                borderRadius: "15px",
-                height: "20rem",
-              }}
-              className="service-card"
-            >
+            <div className="service-card">
               <div>
-                <img
-                  src="../images/web.png"
-                  style={{
-                    width: "4rem",
-                    height: "6rem",
-                    marginTop: "-22%",
-                    paddingBottom: "10%",
-                    marginBottom: "-14%",
-                    borderRadius: "0.3rem",
-                  }}
-                ></img>
+                <img src="../images/web.png" className="service-logo"></img>
               </div>
               <div>
                 <div>
-                  <h1
-                    style={{
-                      color: "black",
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      letterSpacing: "1px",
-                      paddingTop: "20%",
-                    }}
-                  >
-                    Web Development
-                  </h1>
+                  <h1 className="service-title">Web Development</h1>
                 </div>
                 <div>
-                  <p
-                    style={{
-                      color: "#039292",
-                      fontSize: "0.875rem",
-                      fontWeight: "400",
-                      lineHeight: "1.8",
-                      margin: "20px 0 0",
-                      padding: "0% 1%",
-                    }}
-                  >
+                  <p className="service-description">
                     Engineer scalable web applications using robust
                     architectures, ensuring responsiveness and efficiency
                     through strategic API integrations and meticulous coding
@@ -145,54 +69,16 @@ const Services = () => {
               </div>
             </div>
 
-            <div
-              style={{
-                width: "80%",
-                textAlign: "center",
-                backgroundColor: "white",
-                borderRadius: "15px",
-                height: "20rem",
-              }}
-              className="service-card"
-            >
+            <div className="service-card">
               <div>
-                <img
-                  src="../images/sa.png"
-                  style={{
-                    width: "4rem",
-                    height: "6rem",
-                    marginTop: "-22%",
-                    paddingBottom: "10%",
-                    marginBottom: "-14%",
-                    borderRadius: "0.3rem",
-                  }}
-                ></img>
+                <img src="../images/sa.png" className="service-logo"></img>
               </div>
               <div>
                 <div>
-                  <h1
-                    style={{
-                      color: "black",
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      letterSpacing: "1px",
-                      paddingTop: "20%",
-                    }}
-                  >
-                    Saas Solutions
-                  </h1>
+                  <h1 className="service-title">Saas Solutions</h1>
                 </div>
                 <div>
-                  <p
-                    style={{
-                      color: "#039292",
-                      fontSize: "0.875rem",
-                      fontWeight: "400",
-                      lineHeight: "1.8",
-                      margin: "20px 0 0",
-                      padding: "0% 1%",
-                    }}
-                  >
+                  <p className="service-description">
                     Optimize business processes with our Software as a Service
                     (SaaS) offerings,providing scalable and modular solutions ,
                     backed by robust APIs and Cloud infrastructure for seamless
@@ -202,54 +88,16 @@ const Services = () => {
               </div>
             </div>
 
-            <div
-              style={{
-                width: "80%",
-                textAlign: "center",
-                backgroundColor: "white",
-                borderRadius: "15px",
-                height: "20rem",
-              }}
-              className="service-card"
-            >
+            <div className="service-card">
               <div>
-                <img
-                  src="../images/cc.png"
-                  style={{
-                    width: "4rem",
-                    height: "6rem",
-                    marginTop: "-22%",
-                    paddingBottom: "10%",
-                    marginBottom: "-14%",
-                    borderRadius: "0.3rem",
-                  }}
-                ></img>
+                <img src="../images/cc.png" className="service-logo"></img>
               </div>
               <div>
                 <div>
-                  <h1
-                    style={{
-                      color: "black",
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      letterSpacing: "1px",
-                      paddingTop: "20%",
-                    }}
-                  >
-                    Cloud Computing
-                  </h1>
+                  <h1 className="service-title">Cloud Computing</h1>
                 </div>
                 <div>
-                  <p
-                    style={{
-                      color: "#039292",
-                      fontSize: "0.875rem",
-                      fontWeight: "400",
-                      lineHeight: "1.8",
-                      margin: "20px 0 0",
-                      padding: "0% 1%",
-                    }}
-                  >
+                  <p className="service-description">
                     Implement cloud-native solutions for enhanced resource
                     utilization, scalability, and reliability, utilizing
                     microservices architecture and containerization for
@@ -259,54 +107,16 @@ const Services = () => {
               </div>
             </div>
 
-            <div
-              style={{
-                width: "80%",
-                textAlign: "center",
-                backgroundColor: "white",
-                borderRadius: "15px",
-                height: "20rem",
-              }}
-              className="service-card"
-            >
+            <div className="service-card">
               <div>
-                <img
-                  src="../images/ec.png"
-                  style={{
-                    width: "4rem",
-                    height: "6rem",
-                    marginTop: "-22%",
-                    paddingBottom: "10%",
-                    marginBottom: "-14%",
-                    borderRadius: "0.3rem",
-                  }}
-                ></img>
+                <img src="../images/ec.png" className="service-logo"></img>
               </div>
               <div>
                 <div>
-                  <h1
-                    style={{
-                      color: "black",
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      letterSpacing: "1px",
-                      paddingTop: "20%",
-                    }}
-                  >
-                    E-Commerce support
-                  </h1>
+                  <h1 className="service-title">E-Commerce support</h1>
                 </div>
                 <div>
-                  <p
-                    style={{
-                      color: "	#039292",
-                      fontSize: "0.875rem",
-                      fontWeight: "400",
-                      lineHeight: "1.8",
-                      margin: "20px 0 0",
-                      padding: "0% 1%",
-                    }}
-                  >
+                  <p className="service-description">
                     Develop secure e-commerce platforms with PCI-compliant
                     solutions,integrating payment gateways and implementing
                     robust backend systems for efficient order processing and
@@ -316,54 +126,16 @@ const Services = () => {
               </div>
             </div>
 
-            <div
-              style={{
-                width: "80%",
-                textAlign: "center",
-                backgroundColor: "white",
-                borderRadius: "15px",
-                height: "20rem",
-              }}
-              className="service-card"
-            >
+            <div className="service-card">
               <div>
-                <img
-                  src="../images/bc.png"
-                  style={{
-                    width: "4rem",
-                    height: "6rem",
-                    marginTop: "-22%",
-                    paddingBottom: "10%",
-                    marginBottom: "-14%",
-                    borderRadius: "0.3rem",
-                  }}
-                ></img>
+                <img src="../images/bc.png" className="service-logo"></img>
               </div>
               <div>
                 <div>
-                  <h1
-                    style={{
-                      color: "black",
-                      fontSize: "1.5rem",
-                      fontWeight: "700",
-                      letterSpacing: "1px",
-                      paddingTop: "20%",
-                    }}
-                  >
-                    Blockchain
-                  </h1>
+                  <h1 className="service-title">Blockchain</h1>
                 </div>
                 <div>
-                  <p
-                    style={{
-                      color: "	#039292",
-                      fontSize: "0.875rem",
-                      fontWeight: "400",
-                      lineHeight: "1.8",
-                      margin: "20px 0 0",
-                      padding: "0% 1%",
-                    }}
-                  >
+                  <p className="service-description">
                     Blockchain Implement decentralized ledger technology for
                     transparent and secure transactions, utilizing cryptographic
                     principles to ensure data integrity and trust ni digital

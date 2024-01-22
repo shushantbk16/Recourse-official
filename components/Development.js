@@ -5,16 +5,7 @@ const Development = () => {
   return (
     <div>
       <div className="heading-title-brand ">
-        <h1
-          style={{
-            color: "black",
-            fontSize: "2.55rem",
-            fontWeight: "700",
-            lineHeight: "120%",
-            textTransform: "uppercase",
-            letterSpacing: "2px",
-          }}
-        >
+        <h1 className="development-heading">
           Recoursetech development procedure entails that
         </h1>
         <p>

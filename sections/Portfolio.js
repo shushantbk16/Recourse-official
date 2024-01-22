@@ -24,7 +24,7 @@ const Portfolio = () => {
               <Card data={item} key={item.id} />
             ))}
           </div> */}
-          <div className="marketPlaces-portfolio ">
+          <div className="marketPlaces-portfolio">
             {showcase.map((item) => {
               return (
                 <motion.div

@@ -6,18 +6,9 @@ export default function Choose() {
   return (
     <div className="choose">
       <div className="content">
-        <h2
-          style={{
-            color: "black",
-            fontSize: "2.75rem",
-            fontWeight: "700",
-            lineHeight: "120%",
-            textTransform: "uppercase",
-            letterSpacing: "2px",
-          }}
-        >
+        <h1 className="choose-title">
           Turning Visions into Success: Mastering Excellence at Recoursetch
-        </h2>
+        </h1>
         <p>
           Welcome to Recoursetch, where precision meets innovation. Our
           portfolio stands as a testament to our commitment to transforming
@@ -30,7 +21,7 @@ export default function Choose() {
         </p>
       </div>
       <div className="image">
-        <Image src={cl} alt="choose" width="500px" height="100px" />
+        <Image src={cl} alt="choose" width="20rem" height="20rem" />
       </div>
     </div>
   );

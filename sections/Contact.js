@@ -100,23 +100,7 @@ const Contact = () => {
             </div>
           </div>
           <div style={{ paddingLeft: "2%" }}>
-            <button
-              style={{
-                display: "block",
-                color: "white",
-                border: "1px solid blue",
-                borderRadius: "0.5rem",
-                backgroundColor: "#66f",
-                width: "10.625rem",
-                fontSize: "1.25rem",
-                fontWeight: "500",
-                height: "6vh",
-                marginBottom: "10%",
-                marginTop: "5%",
-              }}
-            >
-              Send
-            </button>
+            <button className="contact-button">Send</button>
           </div>
         </div>
         <div>

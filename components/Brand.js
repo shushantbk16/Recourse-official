@@ -12,7 +12,12 @@ const Brand = () => {
         <div className="brand-container">
           <div className="heading-title-brand ">
             <h1
-              style={{ color: "black", fontSize: "2rem", letterSpacing: "1px" }}
+              style={{
+                color: "black",
+                fontSize: "2rem",
+                letterSpacing: "1px",
+              }}
+              className="font-bold"
             >
               WORKING WITH THESE COMPANIES PROUDLY
             </h1>
