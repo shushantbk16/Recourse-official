@@ -11,8 +11,8 @@ const Portfolio = () => {
       <section className="showcase portfolio">
         <div className="container">
           <div className="heading-title">
-            <h1 style={{ fontSize: "4rem" }}>RECOURSETECH</h1>
-            <h1 style={{ fontSize: "4rem" }}>COLLECTION</h1>
+            <h1 style={{ fontSize: "2rem" }}>RECOURSETECH</h1>
+            <h1 style={{ fontSize: "2rem" }}>COLLECTION</h1>
             <p>
               Our team has vast experience in design and development of custom
               innovative ecommerce solutions. Here are some of the projects

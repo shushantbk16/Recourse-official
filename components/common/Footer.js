@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="container footer">
           <div className="grid-4">
             <div className="logo">
-              <TitleLogo title="Re.course.tech" caption="" className="logobg" />
+              <h1 className="footer-text">ReCourse.Tech</h1>
               <br />
               <span>
                 Questions? Reach us <br /> 24 x 7 support

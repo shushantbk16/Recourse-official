@@ -4,18 +4,18 @@
   padding-top: 10%;
   font-size: $xl-6;
   -webkit-text-stroke: 1px #000;
-  
+
   span {
     font-size: $xl-5;
     -webkit-text-stroke: $green;
     color: $green;
   }
 }
-.title-logobg{
+.title-logobg {
   padding-top: 10%;
   font-size: $xl-6;
   -webkit-text-stroke: 1px #000;
- 
+
   span {
     font-size: $xl-5;
     -webkit-text-stroke: $green;
@@ -31,15 +31,14 @@
 }
 .logokb {
   font-size: 6.5rem;
-  color: #5118A8;
+  color: #5118a8;
   text-align: left;
   margin-top: 15%;
- 
 }
-.logomin{
+.logomin {
   padding-top: 10%;
-    font-size: 35px;
-   color: #5118A8;
+  font-size: 35px;
+  color: #5118a8;
 }
 .titleSm {
   font-size: $xl-3;
@@ -91,7 +90,7 @@
   text-align: center;
   max-width: 100%;
   margin: auto;
-  // padding-top: $xll-3;
+
   padding-bottom: $xl-4;
   p {
     margin: $xl-6 0;
@@ -112,7 +111,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-     border-radius: 10%;
+      border-radius: 10%;
     }
   }
   a {

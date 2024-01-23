@@ -1,15 +1,18 @@
 import React from "react";
-import styled from "styled-components";
+
 import cl from "../public/images/output.png";
 import Image from "next/image";
 export default function Choose() {
   return (
     <div className="choose">
       <div className="content">
-        <h1 className="choose-title">
+        <h1
+          className="choose-title"
+          style={{ textAlign: "center", width: "100%" }}
+        >
           Turning Visions into Success: Mastering Excellence at Recoursetch
         </h1>
-        <p>
+        <p style={{ textAlign: "justify", width: "100%", fontSize: "1em" }}>
           Welcome to Recoursetch, where precision meets innovation. Our
           portfolio stands as a testament to our commitment to transforming
           concepts into tangible achievements. With a focus on strategic
@@ -20,55 +23,6 @@ export default function Choose() {
           journey of corporate excellence.
         </p>
       </div>
-      <div className="image">
-        <Image src={cl} alt="choose" width="20rem" height="20rem" />
-      </div>
     </div>
   );
 }
-
-// const Section = styled.section`
-//   display: flex;
-//   justify-content: center;
-//   align-content: center;
-//   margin: 0 9rem;
-//   gap: 3rem;
-//   margin-bottom: 5rem;
-//   .image {
-//   }
-//   .content {
-//     display: flex;
-//     justify-content: center;
-//     flex-direction: column;
-//     gap: 3rem;
-//     h2 {
-//       font-size: 4rem;
-//     }
-//     p {
-//       color: #7b7e86;
-//       line-height: 2rem;
-//     }
-//   }
-//   @media screen and (min-width: 280px) and (max-width: 1080px) {
-//     flex-direction: column;
-//     margin: 2rem;
-//     .image {
-//       display: flex;
-//       justify-content: center;
-//       align-items: center;
-//       img {
-//         height: 50vw;
-//       }
-//     }
-//     .content {
-//       gap: 1rem;
-//       h2 {
-//         font-size: 1rem;
-//       }
-//       p {
-//         line-height: 1.3rem;
-//         font-size: 0.9rem;
-//       }
-//     }
-//   }
-// `;
