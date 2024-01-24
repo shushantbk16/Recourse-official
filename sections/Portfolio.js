@@ -19,11 +19,7 @@ const Portfolio = () => {
               we've successfully delivered to our clients.
             </p>
           </div>
-          {/* <div className="hero-content grid-3 py">
-            {showcase.map((item) => (
-              <Card data={item} key={item.id} />
-            ))}
-          </div> */}
+
           <div className="marketPlaces-portfolio">
             {showcase.map((item) => {
               return (
@@ -39,7 +35,6 @@ const Portfolio = () => {
                     type: "spring",
                     duration: "1.5",
                     ease: "easeInOut",
-                    // delay: "0.",
                   }}
                   style={{ top: "-22px" }}
                 >

@@ -9,18 +9,16 @@ button {
 @media screen and (max-width: 768px) {
   button {
     display: block;
+    color: black;
   }
 }
 
 header {
   padding: $s 0;
- 
-  // border-bottom: 1px solid rgba($white, 0.2);
   position: sticky;
-  top: 0;
   backdrop-filter: blur(10px);
   z-index: 999;
-  background-color:transparent;
+  background-color: transparent;
   .container {
     @include flex(center, space-between, none);
     nav {
@@ -32,7 +30,7 @@ header {
 }
 .activeLink {
   position: relative;
-  color: #5118A8;
+  color: #5118a8;
   &::after {
     content: "";
     position: absolute;
@@ -40,7 +38,7 @@ header {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #5118A8;
+    background-color: #5118a8;
   }
 }
 
@@ -56,7 +54,7 @@ header {
       width: 100%;
       height: 40vh;
       padding: 20px;
-      background: $dark;
+      background: white;
       display: flex;
       flex-direction: column;
       z-index: 999;

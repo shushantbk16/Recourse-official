@@ -112,55 +112,13 @@
 }
 
 // Choose
+.choose h1 {
+  padding-bottom: 1em;
+}
 
-.choose {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 0rem;
-  gap: 3rem;
-  margin-bottom: 15%;
-  margin-top: 15%;
-  .image {
-    width: 500px;
-    height: 300px;
-  }
-  .content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 3rem;
-    width: 100%;
-    h2 {
-      font-size: 4rem;
-    }
-    p {
-      color: #7b7e86;
-      line-height: 2rem;
-    }
-  }
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
-    flex-direction: column;
-    margin: 2rem;
-    .image {
-      display: flex;
-      justify-content: start;
-
-      img {
-        height: 50vw;
-      }
-    }
-    .content {
-      gap: 1rem;
-      h2 {
-        font-size: 1rem;
-      }
-      p {
-        line-height: 1.3rem;
-        font-size: 0.9rem;
-      }
-    }
-  }
+.content {
+  color: black;
+  padding: 0.8em 0.8em;
 }
 
 // brand
@@ -171,12 +129,16 @@
   padding-top: 10%;
 }
 
+.brand-title h1 {
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  padding: 1em 0.5em;
+}
+
 .brand-content {
   padding-top: 8%;
   text-align: center;
-}
-.brand-container {
-  // padding-bottom: 200px;
 }
 
 //banner
@@ -701,10 +663,13 @@ footer {
 @media screen and (max-width: 600px) {
   .marketPlaces-portfolio {
     display: grid;
+    width: 90%;
+    margin: auto;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 5%;
+    margin-top: 0%;
     gap: 2rem;
     margin-bottom: 8%;
+    margin-left: 2.5em;
   }
 }
 
@@ -953,6 +918,10 @@ footer {
     padding-top: 2%;
     padding-bottom: 5%;
   }
+
+  .cardify p {
+    padding-left: 1em;
+  }
 }
 
 .service-card {
@@ -1076,15 +1045,15 @@ textarea {
   line-height: 1.25;
   color: black;
   font-family: Montserrat_local, Verdana, sans-serif;
-  margin-left: 20%;
 }
 
 .cardify-title {
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   font-size: 2.75rem;
   font-weight: 700;
   line-height: 120%;
+  margin-left: 2%;
   font-family: Montserrat_local, Verdana, sans-serif;
 }
 
@@ -1095,22 +1064,30 @@ textarea {
     line-height: 1.25;
     color: black;
     font-family: Montserrat_local, Verdana, sans-serif;
-    margin-left: 20%;
+    margin-left: 5%;
+  }
+
+  .cardify p {
+    text-align: justify;
   }
 
   .cardify-title {
     text-transform: uppercase;
-    text-align: left;
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 120%;
-    text-align: center;
     font-family: Montserrat_local, Verdana, sans-serif;
+  }
+
+  .heading-title p {
+    font-size: 1em;
   }
 }
 .cardify-line {
   width: 90%;
-  margin-left: 9%;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .choose-title {
   color: black;
@@ -1144,12 +1121,18 @@ textarea {
 @media screen and (max-width: 600px) {
   .development-heading {
     color: black;
-    padding: 1em;
-    font-size: 1.55rem;
+    padding: 0em;
+    font-size: 1em;
     line-height: 120%;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
+  }
+
+  .heading-title-brand p {
+    font-size: 1em;
+    text-align: justify;
+    padding: 1em 1em;
   }
 }
 

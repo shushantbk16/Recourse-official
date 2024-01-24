@@ -16,7 +16,7 @@ const Services = () => {
           <div className="heading-title">
             <br />
             <img src="../images/saas.png" style={{ width: "15%" }}></img>
-            <h1 style={{ fontSize: "3rem" }}>Development Services</h1>
+            <h1 style={{ fontSize: "2rem" }}>Development Services</h1>
           </div>
           <div
             style={{

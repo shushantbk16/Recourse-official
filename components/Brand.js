@@ -10,15 +10,8 @@ const Brand = () => {
     <>
       <section className="brand">
         <div className="brand-container">
-          <div className="heading-title-brand ">
-            <h1
-              style={{
-                color: "black",
-                fontSize: "2rem",
-                letterSpacing: "1px",
-              }}
-              className="font-bold"
-            >
+          <div className="brand-title">
+            <h1 className="company-heading font-bold">
               WORKING WITH THESE COMPANIES PROUDLY
             </h1>
           </div>

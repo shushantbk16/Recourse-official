@@ -23,7 +23,7 @@ const Hero = () => {
               experts is committed to fueling your company's digital journey.
             </p>
           </div>
-          <hr className="cardify-line" />
+
           <div>
             <div className="cardify">
               <h1 className="cardify-text">Timely Delivery</h1>
